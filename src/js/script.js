@@ -31,3 +31,19 @@ console.log(typeof exemplo5)
 let exemplo6=["huguinho,zezinho,luizimho"]
 console.log(typeof exemplo6)
 //CONVERSÕES
+
+//float => inteiro
+let numFloat =123.456;
+console.log(parseInt(numFloat));
+
+//string => float
+let numString ="547.753"
+console.log(parseFloat(numString));
+
+//float => string
+
+let numFloat1 ="699.696"
+console.log(numFloat1.toString());
+
+let numInt=100;
+console.log(numInt.toString());
