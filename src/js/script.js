@@ -88,9 +88,94 @@
  // console.log(num3 == num4 || num4 > num3)
 
 //OPERADORES DE COMPARAÇÃO
-const num5 =25;
-const num6 =35;
+// const num5 =25;
+// const num6 =35;
 
-console.log(num5 == num6); //compara
-console.log(num5 === num6); //compara e verifica o tipo da variavel
-console.log(num5 != num6); //diferente
+// console.log(num5 == num6); //compara
+//console.log(num5 === num6); //compara e verifica o tipo da variavel
+//console.log(num5 != num6); //diferente
+
+//ESTRUTURA CONDICIONAL
+
+//IF
+
+// let valor = 100;
+
+
+// if(valor == 100){
+//  console.log("é verdadeiro")
+// }
+
+//if\else
+
+// let valor1=130;
+
+// if(valor1 == 100){
+//     console.log("Valor Correto")
+// }else{
+//     console.log("Valor Errado")
+// }
+
+//if\else - encadeoado ou aninhado
+
+// let idade = 51;
+
+// if(idade <= 14){
+//     console.log("Não pode entrar")
+// }
+// else if(idade >= 14 && idade <18){
+//     console.log("Pode entrar")
+// }
+// else if(idade > 50 && idade < 70){
+//     console.log("Você não tem idade pra isso seu velho do krl")
+// }
+// else{
+//     console.log("Fica em casa assistindo sua novela")
+// }
+
+//Condição ternaria
+
+// let valor2 = 300;
+
+// let resultado = valor2 == 300 ? "Certo": "Errado";
+// console.log(resultado)
+
+
+//SWITCH CASE
+
+// let time = "Palmeiras";
+
+// switch(time){
+//     case "Palmeiras":
+//         console.log("Melhor Time")
+//         break
+//     case "Flamengo":
+//         console.log("Não é time")
+//        break;
+//     default:
+//         console.log("Nenhuma das opções")
+// }
+
+//ESTRUTURA DE LAÇO DE REPETIÇÃO
+
+// for(let i=0;i<10;i++){
+//     console.log("O valor de I é :", i)
+// }
+
+//WHILE
+
+let w=0
+
+while(w<=10){
+    console.log("O valor de w é ",w)
+    w++
+}
+
+
+//do While
+
+let z=10
+do{
+    console.log("do while é",z)
+    z++;
+}while(z <= 100)
